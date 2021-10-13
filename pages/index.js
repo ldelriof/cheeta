@@ -4,9 +4,19 @@ import 'bootstrap/dist/css/bootstrap.css'
 import styles from '../styles/Home.module.css'
 import logo from '../public/logo3.png'
 import courier from '../public/courier.jpg'
+import { useEffect, useState } from 'react'
+
 
 
 export default function Home() {
+
+  const [link, setLink] = useState(null)
+  useEffect(() => {
+    if (link !== null) {
+      window.location.href = 'https://zakariajaiathe.typeform.com/to/xJ3LnRAb'; 
+    }
+  }, [link])
+
   return (
     <div>
       <Head>
@@ -61,7 +71,7 @@ export default function Home() {
               <div class="row">
                 <div className="card-body" >
                   <h5>Check your area</h5>
-                  <form class="form-inline row">
+                  <form onSubmit={setLink} class="form-inline row">
                     <label>Postal Code</label>
                     <div class="form-group col">
                       <input type="text" name="plz" required placeholder="Plz." className="form-control" />
@@ -76,22 +86,6 @@ export default function Home() {
               </div>
               </div>
           </div>
-
-        {/* <div className="card">
-          <div className="card-body" >
-            <h5>Check your area</h5>
-            <form class="form-inline row">
-              <label>Postal Code</label>
-              <div class="form-group col-10">
-                <input type="text" name="plz" required placeholder="Plz." className="form-control" />
-              </div>
-              <div class="form-group col-2">
-                <button type="button" class="btn btn-info">Button</button>
-              </div>
-            </form>
-          </div>
-        </div> */}
-
         </div>
 
       </main>
