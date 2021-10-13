@@ -61,20 +61,11 @@ export default function Home() {
             </div>
             <div class="col">
               <div class="row">
-              <h2>About us</h2>
-              <p>
-              Cheeta is a service that allows you to get your packages when you want! 
-              Our riders will pick up the package at the delivery center you chose when 
-              you bought your product and will deliver it to your front door at the time you choose.
-              </p>
-              <h3>How does it works?</h3>
+              <h3>How does it work?</h3>
               <ul>
-                <li>
-                  Cheeta will provide you with an adress to send your packages from any online store you're buying from.
-                </li>
-                <li>
-                  Once we receive the package we'll send it to you when your available to receive it.
-                </li>
+                <li>We will send you a delivery address to one of our neighborhood fulfillment centers to use during your regular checkout process.</li>
+                <li>Once your package has arrived at our delivery point, you will receive a notification</li>
+                <li>You can then choose to have it delivered within the next hour, or you can schedule a delivery to whatever future time you wish.</li>
               </ul>
               </div>
               <div class="row">
