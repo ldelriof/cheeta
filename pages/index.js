@@ -67,6 +67,15 @@ export default function Home() {
               Our riders will pick up the package at the delivery center you chose when 
               you bought your product and will deliver it to your front door at the time you choose.
               </p>
+              <h3>How does it works?</h3>
+              <ul>
+                <li>
+                  Cheeta will provide you with an adress to send your packages from any online store you're buying from.
+                </li>
+                <li>
+                  Once we receive the package we'll send it to you when your available to receive it.
+                </li>
+              </ul>
               </div>
               <div class="row">
                 <div className="card-body" >
